@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Board from '/Board';
+import Board from './Board';
 
 function Game() {
   const [history, setHistory] = useState([{ squares: Array(9).fill(null) }]);
